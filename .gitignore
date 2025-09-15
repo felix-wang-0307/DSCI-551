@@ -6,6 +6,10 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
+# OS generated files
+.DS_Store
+Thumbs.db
+
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
@@ -137,3 +141,15 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Python dependency & cache
+__pypackages__/
+.venv/
+venv/
+ENV/
+env/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.pyre/
