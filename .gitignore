@@ -153,3 +153,5 @@ env/
 *.pyd
 .pytest_cache/
 .pyre/
+__pycache__/
+.ipynb_checkpoints
